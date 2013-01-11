@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{2709DCD6-1A55-446A-9B7D-38878499804D}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Sismul.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="C:\Users\Hadrian\Downloads\Compressed\loading progressbar\Project1.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Sismul">
+			<MSBuild Projects="Sismul.dproj"/>
+		</Target>
+		<Target Name="Sismul:Clean">
+			<MSBuild Projects="Sismul.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Sismul:Make">
+			<MSBuild Projects="Sismul.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Project1">
+			<MSBuild Projects="C:\Users\Hadrian\Downloads\Compressed\loading progressbar\Project1.dproj"/>
+		</Target>
+		<Target Name="Project1:Clean">
+			<MSBuild Projects="C:\Users\Hadrian\Downloads\Compressed\loading progressbar\Project1.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Project1:Make">
+			<MSBuild Projects="C:\Users\Hadrian\Downloads\Compressed\loading progressbar\Project1.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Sismul;Project1"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Sismul:Clean;Project1:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Sismul:Make;Project1:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
