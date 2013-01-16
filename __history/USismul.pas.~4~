@@ -225,7 +225,7 @@ end;
 
 procedure TFMain.Button1Click(Sender: TObject);
 var
-  dasar: String;
+//variabel
   OutDir: String;
   AFileSrc, AFileTrg:String;
   i:integer;
