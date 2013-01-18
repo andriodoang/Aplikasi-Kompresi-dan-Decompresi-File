@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/01/08 01:36:03.000.750,=C:\Users\Hadrian\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/01/08 01:37:51.000.376,=C:\Users\Hadrian\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/01/08 03:24:55.000.010,=C:\Users\Hadrian\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/01/08 03:25:10.000.776,C:\Users\Hadrian\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Hadrian\Documents\RAD Studio\Projects\USismul.dfm</Transaction>
+    <Transaction>2013/01/08 03:25:10.000.776,C:\Users\Hadrian\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Hadrian\Documents\RAD Studio\Projects\USismul.pas</Transaction>
+    <Transaction>2013/01/08 03:27:32.000.138,C:\Users\Hadrian\Documents\RAD Studio\Projects\USismul.dfm=D:\Sismul\USismul.dfm</Transaction>
+    <Transaction>2013/01/08 03:27:32.000.138,C:\Users\Hadrian\Documents\RAD Studio\Projects\USismul.pas=D:\Sismul\USismul.pas</Transaction>
+    <Transaction>2013/01/08 03:27:41.000.048,C:\Users\Hadrian\Documents\RAD Studio\Projects\Project1.dproj=D:\Sismul\Sismul.dproj</Transaction>
+    <Transaction>2013/01/08 04:25:32.000.334,=D:\Sismul\Unit1.pas</Transaction>
+    <Transaction>2013/01/08 04:26:15.000.744,D:\Sismul\UAbout.pas=D:\Sismul\Unit1.pas</Transaction>
+    <Transaction>2013/01/08 04:26:15.000.744,D:\Sismul\UAbout.dfm=D:\Sismul\Unit1.dfm</Transaction>
+    <Transaction>2013/01/08 06:18:56.000.596,D:\Others\Sismul\Sismul.dproj=D:\Others\Sismul\Sismul.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
